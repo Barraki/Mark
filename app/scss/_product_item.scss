@@ -4,6 +4,8 @@
 	font-family: "Roboto", sans-serif;
 
 	&__image {
+		position: relative;
+
 		img {
 			width: 100%;
 		}
@@ -49,6 +51,35 @@
 			line-height: 1;
 
 		}
+	}
+}
+
+.product-item__hover {
+	z-index: 10;
+	border: 10px solid rgba(255, 255, 255, 0.7);
+	background-color: rgba(0, 0, 0, 0.55);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+
+	i {
+		font-size: 30px;
+	}
+
+	button {
+		width: 50px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		margin: 0 4.5px
+	}
+}
+
+.product-item:hover {
+	.product-item__hover {
+		display: block;
 	}
 }
 
