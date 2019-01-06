@@ -126,6 +126,7 @@ h2.bold {
 	margin: 0 auto;
 	margin-top: 30px;
 	position: relative;
+
 	&:after,
 	&:before {
 		content: "";
@@ -151,6 +152,17 @@ h2.bold {
 }
 
 
+.heading {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 26px;
+	letter-spacing: -0.32px;
+	text-align: center;
+}
+
+
 .btn-border {
 	width: 120px;
 	height: 42px;
@@ -168,9 +180,14 @@ h2.bold {
 	}
 }
 
+
+
 @import "top_header";
 @import "menu_section";
 @import "slider_section";
 @import "about_us";
 @import "new_collection";
+@import "slider-review";
+@import "letter-section";
+@import "article-item";
 @import "media"; // Always at the end
