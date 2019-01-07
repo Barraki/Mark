@@ -72,14 +72,6 @@
 
 
 
-
-
-#our-partners {
-	background-color: #e9f0fd;
-	padding-bottom: 80px;
-}
-
-
 .partner-item {
 	img {
 		width: 100%;
@@ -89,23 +81,3 @@
 }
 
 
-
-#news {
-	padding-bottom: 80px;
-}
-
-#contact {
-	background-image: url("../img/bg-contact.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 100px;
-	h2 {
-		color: #ffffff;
-	}
-	.title-border {
-		color: #4ec6ab;
-		&:after, &:before {
-			color: #4ec6ab;
-		}
-	}
-}

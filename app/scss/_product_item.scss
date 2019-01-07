@@ -185,48 +185,6 @@
 }
 
 
-#featured {
-	padding-bottom: 80px;
-	.product-item {
-		margin-bottom: 30px;
-	}
-}
 
-
-
-#sale-season {
-	background-image: url(../img/bg-sales.png);
-	background-repeat: no-repeat;
-	background-position: -20px 0;
-	background-size: 102%;
-	height: calc(100% - 20px);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 127px 0 127px 0;
-	h2, .subtitle {
-		color: #fff
-	}
-
-	.desc {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		h2 {
-			font-size: 60px;
-			font-weight: 900;
-			letter-spacing: 1.08px;
-		}
-		.subtitle {
-			font-weight: 300;
-			letter-spacing: -1.2px;
-			font-size: 36px;
-			text-align: center;
-			font-family: "Open Sans";
-			font-weight: 300;
-		}
-	}
-
-}
 
 
