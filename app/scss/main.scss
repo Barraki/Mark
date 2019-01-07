@@ -85,6 +85,15 @@ a {
 	text-align: center;
 }
 
+.p-0 {
+	padding: 0;
+}
+
+
+.d-n-mobile {
+	display: none;
+}
+
 b,
 strong {
 	font-weight: bold;
@@ -117,6 +126,16 @@ h2.bold {
 	text-align: center;
 	line-height: 1;
 }
+
+.d-n-mobile {
+	display: block;
+}
+
+
+.btn-menu {
+	display: none;
+}
+
 
 .title-border {
 	width: 164px;
